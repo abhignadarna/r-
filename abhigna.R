@@ -133,7 +133,6 @@ library(pheatmap)
 # Calculate Spearman's correlation matrix for multiple variables
 cor_matrix <- cor(abhigna[, c("AnnualIncome", "SpendingScore")], method = "spearman")
 
-# Print the correlation matrix
 print(cor_matrix)
 
 # Convert correlation matrix to a long format for ggplot2 (using reshape package)
