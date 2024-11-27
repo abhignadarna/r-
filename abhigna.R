@@ -125,7 +125,6 @@ ggplot(normalized_data, aes(x = factor(AnnualIncome), y = percentage, fill = Spe
 
 
 install.packages("reshape2")
-# Install and load necessary libraries
 install.packages("reshape")
 install.packages("pheatmap")
 library(reshape)
