@@ -45,7 +45,7 @@ ggplot(abhigna, aes(x = SpendingScore)) +
 
 
 
-# Load required library
+
 library(ggplot2)
 
 # Boxplot of Spending Score by Annual Income categories
