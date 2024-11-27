@@ -220,7 +220,7 @@ library(dplyr)
 
 # Discretize 'AnnualIncome' into Low, Medium, High categories
 my_data$IncomeCategory <- cut(my_data$AnnualIncome,
-                              breaks = c(0, 30000, 70000, Inf),  # Adjust ranges as needed
+                              breaks = c(0, 30000, 70000, Inf), 
                               labels = c("Low", "Medium", "High"),
                               right = FALSE)
 
