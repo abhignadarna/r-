@@ -315,5 +315,4 @@ ggplot(abhigna, aes(x = SpendingScore)) +
 # Save the histogram as a PNG image
 ggsave("normality_histogram.png", width = 8, height = 6, dpi = 300)
 
-# The file 'normality_histogram.png' will be saved in the current working directory
 
