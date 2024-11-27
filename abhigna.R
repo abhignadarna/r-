@@ -229,7 +229,7 @@ my_data$IncomeCategory <- cut(my_data$AnnualIncome,
 
 # Discretize 'SpendingScore' into Low, Medium, High categories
 my_data$SpendingCategory <- cut(my_data$SpendingScore,
-                                breaks = c(0, 30, 60, 100),  # Adjust ranges as needed
+                                breaks = c(0, 30, 60, 100),  
                                 labels = c("Low", "Medium", "High"),
                                 right = FALSE)
 
