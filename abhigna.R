@@ -218,8 +218,7 @@ if (shapiro_test$p.value > 0.05) {
 # Load necessary library
 library(dplyr)
 
-# Example dataset 'my_data'
-# Make sure to replace 'my_data' with your actual dataset name
+
 
 # Discretize 'AnnualIncome' into Low, Medium, High categories
 my_data$IncomeCategory <- cut(my_data$AnnualIncome,
